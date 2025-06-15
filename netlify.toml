@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "/thanks.html"
+  status = 303
+  conditions = { form = "contact" }
