@@ -1,0 +1,45 @@
+# Ignorar arquivos de ambiente
+.env
+.env.*
+
+# Ignorar dependências
+node_modules/
+venv/
+.env/
+.pip/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignorar arquivos de build/output
+dist/
+build/
+out/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de IDEs/editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de testes ou cobertura
+coverage/
+*.cover
+*.lcov
+
+# Ignorar arquivos de banco de dados locais
+*.sqlite3
+*.db
+
+# Outros arquivos que não devem ser versionados
+*.bak
+*.orig
